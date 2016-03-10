@@ -1,0 +1,112 @@
+html, body {
+    height:100%;
+    padding:0;
+    margin:0;
+}
+
+#logo {
+    position:relative;
+    width:200px;
+    margin:0 auto;
+    display:block;
+    height:132.5px;
+    top:33.75px;
+
+    -webkit-transition-duration: 0.05s;
+    -moz-transition-duration: 0.05s;
+    -o-transition-duration: 0.05s;
+    transition-duration: 0.05s;
+
+    -webkit-transition-property: opacity;
+    -moz-transition-property: opacity;
+    -o-transition-property: opacity;
+    transition-property: opacity;
+
+    overflow:hidden;
+}
+
+#logo:hover {
+  /*-webkit-transform:rotate(360deg);
+  -moz-transform:rotate(360deg);
+  -o-transform:rotate(360deg);*/
+    opacity:0;
+}
+
+iframe, img {
+    display:block;
+    margin:0 auto;
+}
+
+body {
+    font-family:"Segoe UI";
+    background-color:#696969;
+    color:white;
+}
+
+h1 {
+    font-family:"Palatino Linotype";
+    color:#FFD700;
+}
+
+h2 {
+    font-family:"Palatino Linotype";
+    color:#FFD700;
+}
+
+a {
+    text-decoration:none;
+}
+
+a:link {
+    color:#FFD700;
+}
+
+a:visited {
+    color:#DAA520;
+}
+
+a:hover {
+    font-size:102%;
+    transition-duration:0.4s;
+    transition-property:color;
+    color:yellow;
+}
+
+a:active {
+    color:white;
+    padding-top: 2px;
+}
+
+strong {
+    color:#FFD700;
+    font-size:30px;
+    background-color:#555555;
+    padding:1px 10px;
+}
+
+.note {
+  opacity: 0.8;
+}
+
+a[href^="http"] {
+    background-image:url("../img/globo.png");
+    background-repeat:no-repeat;
+    padding-left:20px;
+}
+
+header {
+    height:200px;
+    background-color:white;
+    padding:0;
+    margin:0;
+    box-shadow:0 0 5px black;
+}
+
+.content {
+    padding:40px;
+    padding-top:10px;
+}
+
+p {
+    text-align:justify;
+}
